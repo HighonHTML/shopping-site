@@ -1,0 +1,16 @@
+.nav{
+    height: 6rem;
+    padding: 1rem 1.5rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+.nav>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}

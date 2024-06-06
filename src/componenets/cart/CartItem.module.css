@@ -1,0 +1,71 @@
+.productCardContainer {
+  margin: 1rem;
+  width: 70%;
+}
+
+.productCard {
+  background-color: white;
+  max-height: 10rem;
+  padding: 1rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  border-radius: 2%;
+}
+
+.image {
+  flex-grow: 0;
+  width: 20%;
+  height: 10rem;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 2%;
+}
+
+.title {
+  flex-grow: 0;
+  width: 30%;
+  overflow: scroll;
+}
+
+.buttonGroup {
+  flex-grow: 0;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+.remove {
+  width: 5%;
+  min-width: 10px;
+}
+
+.remove > svg {
+  color: rgb(243, 25, 25);
+}
+
+.remove:hover {
+  cursor: pointer;
+}
+
+.price {
+  flex-grow: 0;
+  width: 20%;
+}
+
+img {
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.left > h1 {
+  font-size: 1.5rem;
+}

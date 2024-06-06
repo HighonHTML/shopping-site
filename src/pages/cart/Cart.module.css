@@ -1,0 +1,23 @@
+.buttonContainer {
+  height: 3rem;
+  padding: 1rem;
+  flex-grow: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.buttonContainer > button {
+  width: 5rem;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid black;
+  border-radius: 5%;
+  flex-grow: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.cartContainer {
+    min-height: 100vh;
+}
